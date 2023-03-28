@@ -26,8 +26,8 @@ def encode(input):
     
     
 def main():
-    image = cv2.imread('./img.jpg', 0)
-    _, input = cv2.threshold(image, 128, 255, cv2.THRESH_BINARY)
+    input = cv2.imread('./img.jpg', 0)
+    # _, input = cv2.threshold(image, 128, 255, cv2.THRESH_BINARY)
     input = input.flatten()
 
     encode(input)

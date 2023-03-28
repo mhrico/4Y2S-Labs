@@ -36,14 +36,14 @@
       <tbody>
             {% for book in books %}
 
-            <tr>
-                <th scope="row"> {{ book.id }}</th>
-                <td> {{ book.isbn }} </td>
-                <td> {{ book.title }} </td>
-                <td> {{ book.author }} </td>
-                <td> {{ book.stock }} </td>
-                <td> {{ book.price }} </td>
-            </tr>
+                <tr>
+                    <th scope="row"> {{ book.id }}</th>
+                    <td> {{ book.isbn }} </td>
+                    <td> {{ book.title }} </td>
+                    <td> {{ book.author }} </td>
+                    <td> {{ book.stock }} </td>
+                    <td> {{ book.price }} </td>
+                </tr>
 
             {% endfor %}
       </tbody>
